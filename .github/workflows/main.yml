@@ -4,7 +4,7 @@ on:
     branches: [ "main" ]
   schedule:
     # 每天北京时间 9:00 (UTC 1:00) 触发
-    - cron: '0 1 * * *'
+    - cron: '0 4 * * *'
   workflow_dispatch: # 允许手动测试
 jobs:
   build:
