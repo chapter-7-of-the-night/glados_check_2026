@@ -27,5 +27,3 @@ jobs:
     - name: Run checkin script
       run: |
         python checkin.py
-    - name: Keepalive Workflow
-      uses: gautamkrishnar/keepalive-workflow@v2
